@@ -1,0 +1,11 @@
+{
+    "mappings": {
+        "properties": {
+            "movie_rank":  {"type": "integer"},
+            "movie_url":   {"type": "text"},
+            "movie_title": {"type": "text"},
+            "movie_cllct": {"type": "date", "format": ["yyyyMMdd"]},
+            "movie_genre": {"type": "keyword"}
+        }
+    }
+}
